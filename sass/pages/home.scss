@@ -1,0 +1,40 @@
+.container01 {
+  background: url(../img/home/01.jpg) center / cover no-repeat;
+}
+
+.container02 {
+  background: url(../img/home/03.jpg) center / cover no-repeat;
+}
+
+.container03 {
+  background: url(../img/home/02.gif) center / cover no-repeat;
+}
+
+.container04 {
+  background: url(../img/home/04.jpg) center / cover no-repeat;
+}
+
+.tittlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: 25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 750px) {
+  .tittlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 20px;
+  }
+}

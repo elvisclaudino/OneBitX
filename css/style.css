@@ -1,0 +1,371 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap);
+* {
+  color: white;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 6px;
+}
+.header #navItem:hover {
+  color: #b9b9b9;
+}
+
+.container00 {
+  min-height: 100vh;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+}
+
+.logoPc {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 35px;
+}
+
+#button {
+  padding: 15px 35px;
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copyOBC {
+  color: #555252;
+}
+
+.dowloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+.dowloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+.emailObc {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.emailObc:hover {
+  color: #b9b9b9;
+  border-bottom: 1px solid #b9b9b9;
+}
+
+@media (max-width: 449px) {
+  .dowloadDesc button {
+    margin: 10px 0;
+  }
+}
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+.container01 {
+  background: url(../img/home/01.jpg) center/cover no-repeat;
+}
+
+.container02 {
+  background: url(../img/home/03.jpg) center/cover no-repeat;
+}
+
+.container03 {
+  background: url(../img/home/02.gif) center/cover no-repeat;
+}
+
+.container04 {
+  background: url(../img/home/04.jpg) center/cover no-repeat;
+}
+
+.tittlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: 25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 750px) {
+  .tittlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle,
+.mediumTitle {
+    width: auto;
+    font-size: 20px;
+  }
+}
+.container05 {
+  background: url(../img/falcon9/01.jpg) center/cover no-repeat;
+}
+
+.container06 {
+  background: url(../img/falcon9/02.jpg) center/cover no-repeat;
+}
+
+.carrossel01 {
+  background: url(../img/falcon9/03.jpg) center/cover no-repeat;
+}
+
+.carrossel02 {
+  background: url(../img/falcon9/04.jpg) center/cover no-repeat;
+}
+
+.carrossel03 {
+  background: url(../img/falcon9/05.jpg) center/cover no-repeat;
+}
+
+.carrossel04 {
+  background: url(../img/falcon9/06.jpg) center/cover no-repeat;
+}
+
+.carrossel05 {
+  background: url(../img/falcon9/07.jpg) center/cover no-repeat;
+}
+
+.container07 {
+  background: url(../img/falcon9/08.jpg) center/cover no-repeat;
+}
+
+.titleFalcon9 {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleNumb {
+  font-size: 90px;
+}
+
+.subtitleNumb {
+  font-size: 20px;
+}
+
+.falcon9Desc {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carousselText {
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .titleNumb {
+    font-size: 80px;
+  }
+  .subtitleNumb {
+    font-size: 18px;
+  }
+  #overViewPosition {
+    padding-top: 35%;
+  }
+  .falcon9Desc {
+    width: auto;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 80vh;
+  }
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+  .subTitleFalcon {
+    font-size: 16px;
+  }
+  .falcon9Desc {
+    font-size: 18px;
+    line-height: auto;
+  }
+}
+.container08 {
+  background: url(../img/humanFlight/01.jpg) center/cover no-repeat;
+}
+
+.container09 {
+  background: url(../img/humanFlight/02.jpg) center/cover no-repeat;
+}
+
+.container10 {
+  background: url(../img/humanFlight/03.jpg) center/cover no-repeat;
+}
+
+.container11 {
+  background: url(../img/humanFlight/04.jpg) center/cover no-repeat;
+}
+
+.container12 {
+  background: url(../img/humanFlight/05.jpg) center/cover no-repeat;
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content .titleHuman {
+  font-size: 120px;
+}
+.container01Content .subTitleHuman {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.earthDesc {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.earthDesc .textDescEarth {
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+@media (max-width: 768px) {
+  .container01Content .titleHuman {
+    font-size: 90px;
+  }
+  .earthDesc .textDescEarth {
+    font-size: 18px;
+    width: auto;
+  }
+  .containerRightContent {
+    margin-left: 15%;
+  }
+  .containerLeftContent {
+    margin-left: 15%;
+  }
+}
+@media (max-width: 610px) {
+  .container01Content .titleHuman {
+    font-size: 60px;
+  }
+  .container01Content .subTitleHuman {
+    font-size: 24px;
+  }
+  .containerRightContent {
+    margin-left: 5%;
+  }
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+  .titleSection {
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .container01Content .titleHuman {
+    font-size: 40px;
+  }
+  .earthDesc .textDescEarth {
+    font-size: 14px;
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
